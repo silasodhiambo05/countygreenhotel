@@ -9,7 +9,7 @@
 <!-- <meta http-equiv="refresh" content="10"></meta> -->
 <meta name="description" content="">
 <meta name="author" content="">
-<title><?php echo isset($title) ? $title . 'mlimaniGardensHotel' :  'MlimaniGardensHotel' ; ?></title>
+<title><?php echo isset($title) ? $title . 'CountyGreenHotel' :  'CountyGreenHotel' ; ?></title>
 
 
 <link href="<?php echo WEB_ROOT; ?>admin/css/bootstrap.min.css" rel="stylesheet">
@@ -227,7 +227,7 @@ $(document).ready(function() {
 	
 	<hr>
 	     <footer>
-        <p>&copy; Mlimani Garden Hotel </p>
+        <p>&copy; County Green Hotel </p>
 
         <script>
 

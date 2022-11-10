@@ -108,15 +108,15 @@ function doCancel(){
 // $res->STATUS = 'Cancelled';
 // $res->update($id);
 $sql = "UPDATE `tblreservation` r,tblroom rm SET ROOMNUM=ROOMNUM + 1 WHERE r.`ROOMID`=rm.`ROOMID` AND `CONFIRMATIONCODE` ='" . $_GET['code'] ."'";
-//mysql_query($sql) or die(mysql_error());	
+mysql_query($sql) or die(mysql_error());	
 
 
 $sql = "UPDATE `tblreservation` SET `STATUS`='Cancelled' WHERE `CONFIRMATIONCODE` ='" . $_GET['code'] ."'";
-//mysql_query($sql) or die(mysql_error());
+mysql_query($sql) or die(mysql_error());
 
 
 $sql = "UPDATE `tblpayment` SET `STATUS`='Cancelled' WHERE `CONFIRMATIONCODE` ='" . $_GET['code'] ."'";
-//mysql_query($sql) or die(mysql_error());
+mysql_query($sql) or die(mysql_error());
 
 				
 message("Reservation Upadated successfully!", "success");

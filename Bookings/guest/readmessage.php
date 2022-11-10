@@ -21,7 +21,7 @@ $sql = "UPDATE `tblpayment` SET `MSGVIEW`=1 WHERE `CONFIRMATIONCODE` ='" . $_GET
       <div class="row">
         <div class="col-xs-12">
           <h2 class="page-header">
-             <i class="fa fa-globe"></i> Mlimani Garden Hotel
+             <i class="fa fa-globe"></i> County Green Hotel
             <small class="pull-right">Date: <?php echo date('m/d/Y'); ?></small>
           </h2>
         </div>
@@ -33,10 +33,10 @@ $sql = "UPDATE `tblpayment` SET `MSGVIEW`=1 WHERE `CONFIRMATIONCODE` ='" . $_GET
           From
           <address>
             <strong>IT Department </strong><br>
-            Mlimani Garden Hotel<br>
+            County Green Hotel<br>
             Bungoma<br>
-            Phone: (804) 123-5432<br>
-            Email: mlimaniGardensHotel.com
+            Phone: 0794896161<br>
+            Email: hotelcountygreen@gmail.com
           </address>
         </div>
         <!-- /.col -->

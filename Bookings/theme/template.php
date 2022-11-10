@@ -15,7 +15,7 @@ $_SESSION['to']  = $_POST['to'];
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="">
-<title><?php echo isset($title) ? $title . ' | Mlimani Gardens Hotel' :  'Mlimani Gardens Hotel' ; ?></title>
+<title><?php echo isset($title) ? $title . ' | County Green Hotel' :  'County Green Hotel' ; ?></title>
  
     
 <link rel="stylesheet" type="text/css" href="<?php echo WEB_ROOT; ?>style.css">  
@@ -120,7 +120,7 @@ if (isset($_SESSION['activity'])){
       <div id="logo" class="clr">
  
         <h2 id="site-name">
-          <a href="<?php echo WEB_ROOT; ?>index.php" title="Mlimani Gardens Hotel">Mlimani Gardens Hotel</a>
+          <a href="<?php echo WEB_ROOT; ?>index.php" title="County Green Hotel">County Green Hotel</a>
           <!-- <div id="site-slogan"><?php print "24 hrs"; ?></div> -->
         </h2>
       </div>
